@@ -1,0 +1,47 @@
+body{
+  margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    color:#f3f3f3;
+    background-color: #891919;
+}
+
+form{
+  font-size: 20px;
+  background: #641818;
+}
+
+p, h1{
+  text-align: center;
+}
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1{
+  font-size: 40px;
+}
+
+.textbox{
+
+  width: 200px;
+  height: 30px;
+}
+
+.dropdown{
+  width: 200px;
+  height: 30px;
+}
+
+
+button{
+  font-size: 18px;
+  background-color: #f3f3f3;
+  border: none;
+  color: #641818;
+  padding: 20px 60px;
+  margin: 20px 160px;
+  cursor: pointer;
+
+}

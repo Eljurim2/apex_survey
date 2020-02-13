@@ -1,0 +1,134 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/survey.css">
+
+</head>
+
+<body>
+<div class="container">
+<h1 id="title"> Apex Legends Survey form </h1>
+<p id="description"> Tell us a little bit about how YOU fight in the arena </p>
+
+<form id="survey_form">
+
+  <div class="group">
+
+    <label for="name" id="name-label">Name: </label><br>
+    <input type="text" name="name" id="name" placeholder="Enter your name" required class="textbox"><br><br>
+
+  </div>
+
+  <div class="group">
+
+    <label for="email" id="email-label">Email:</label><br>
+    <input type="email" name="email" id="email" placeholder="Enter your email"
+    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required class="textbox"><br><br>
+
+  </div>
+
+  <div class="group">
+
+    <label for="number" id="number-label"> How many legends have you unlocked ?</label><br>
+    <input type="number" name="number" id="number" min="6" max="12" placeholder="Number of legends" class="textbox"><br>
+    <br>
+
+  </div>
+
+  <div class="group">
+
+  Who is your main ?<br>
+  <select class="dropdown" name="legends" id="dropdown">
+    <option value="" disabled selected>Choose a legend</option>
+    <option value="Bloodhound">Bloodhound</option>
+    <option value="Gibraltar">Gibraltar</option>
+    <option value="Lifeline">Lifeline</option>
+    <option value="Pathfinder">Pathfinder</option>
+    <option value="Wraith">Wraith</option>
+    <option value="Bangalore">Bangalore</option>
+    <option value="Caustic">Caustic</option>
+    <option value="Mirage">Mirage</option>
+    <option value="Octane">Octane</option>
+    <option value="Wattson">Wattson</option>
+    <option value="Crypto">Crypto</option>
+    <option value="Revenant">Revenant</option>
+  </select>
+  <br>
+  <br>
+
+  </div>
+
+  <div class="group">
+
+  <label for="skill">Are you casul or tryhard ?</label><br>
+  <input type="radio" name="skill" value="Casul" id="casul">
+  <label for="casul">Casul</label><br>
+  <input type="radio" name="skill" value="Tryhard" id="tryhard">
+  <label for="tryhard">Tryhard</label><br>
+  <br>
+
+  </div>
+
+  <div class="group">
+
+  <label for="weapon"> What are your favorite weapons ?</label><br>
+
+  <input type="checkbox" name="weapon" value="Hemlok">
+  <label for="weapon">Hemlok</label><br>
+
+  <input type="checkbox" name="weapon" value="R-301">
+  <label for="weapon">R-301</label><br>
+
+  <input type="checkbox" name="weapon" value="Flatline">
+  <label for="weapon">Flatline</label><br>
+
+  <input type="checkbox" name="weapon" value="Havoc">
+  <label for="weapon">Havoc</label><br>
+
+  <input type="checkbox" name="weapon" value="R-99">
+  <label for="weapon">R-99</label><br>
+
+  <input type="checkbox" name="weapon" value="Prowler">
+  <label for="weapon">Prowler</label><br>
+
+  <input type="checkbox" name="weapon" value="Devotion">
+  <label for="weapon">Devotion</label><br>
+
+  <input type="checkbox" name="weapon" value="Spitfire">
+  <label for="weapon">Spitfire</label><br>
+
+  <input type="checkbox" name="weapon" value="L-Star">
+  <label for="weapon">L-Star</label><br>
+
+  <input type="checkbox" name="weapon" value="Peacekeeper">
+  <label for="weapon">Peacekeeper</label><br>
+
+  <input type="checkbox" name="weapon" value="Mozambique">
+  <label for="weapon">Mozambique</label><br>
+
+  <input type="checkbox" name="weapon" value="P2020">
+  <label for="weapon">P2020</label><br>
+  <br>
+
+  </div>
+
+  <div class="group">
+
+  <label for="comments">Any comments or suggestions ?</label><br>
+  <textarea name="comments" rows="5" cols="40" placeholder="Enter your comments here.."></textarea>
+  <br>
+  <br>
+
+  </div>
+
+  <div class="group">
+
+  <button type="submit" name="submit" form="survey_form" value="submit" id="submit">Submit</button>
+
+  </div>
+
+</form>
+</div>
+
+
+</body>
+</html>
